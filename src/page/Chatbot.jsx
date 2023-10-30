@@ -19,7 +19,7 @@ const Chatbot = () => {
           {
             role: "system",
             content:
-              "You will be given a block of text, and your task is to extract a list of 10 keywords from it.",
+              "You will be given a block of text, and your task is to help briefly solve the problem of computer repair",
           },
           { role: "user", content: prompt },
         ],
@@ -42,7 +42,7 @@ const Chatbot = () => {
               <br />
               <div className="row align-items-start">
                 <div className="col">
-                  <h2>Chatbot</h2>
+                  <h2>Asisten AI</h2>
                 </div>
               </div>
               <div className="d-flex gap-3 justify-content-center"></div>
@@ -72,17 +72,17 @@ const Chatbot = () => {
                             </button>
                           </div>
                         </div>
-                        {loading && (
-                          <div className="container mt-5">
-                            <p>loading</p>
-                          </div>
-                        )}
                       </div>
                     </div>
                     <div className="col-md-12 mt-5">
                       <div className="card">
                         <div className="container mt-4">
-                          <h2>Hasil :</h2>
+                          <h3>Hasil :</h3>
+                          {loading && (
+                            <div className="container mt-5">
+                              <p>Mohon tunggu sebentar</p>
+                            </div>
+                          )}
                           <p>{result}</p>
                         </div>
                       </div>

@@ -28,13 +28,13 @@ function Header() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/createproduct">
+                  <Link className="nav-link" to="/input-inventaris">
                     Input Inventaris
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/list-inventaris">
-                    List Inventaris
+                    Daftar Inventaris
                   </Link>
                 </li>
                 <li className="nav-item">

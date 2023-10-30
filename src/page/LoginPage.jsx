@@ -43,7 +43,7 @@ export default function LoginPage() {
             <div className="container  ">
               <div className="align-items-center ">
                 <form
-                  className="border p-4 rounded shadow-sm"
+                  className="card border p-4 rounded shadow-sm"
                   onSubmit={handleLogin}
                 >
                   <h3 className="text-center mb-4">Login</h3>

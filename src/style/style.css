@@ -64,11 +64,15 @@ nav li:hover {
 
 .jumbotron {
     display: flex;
-    height: 787px;
+    height: 786px;
     justify-content: left;
     align-items: center;
-    background-color: #37517E;
-    ;
+    background-color: #00000022;
+    background-image: url('../assets/login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .dashboard {
@@ -78,7 +82,7 @@ nav li:hover {
     height: 786px;
     align-items: top;
     justify-content: c;
-    background-color: #37517E;
+    background-color: #0F4C92;
     ;
 }
 

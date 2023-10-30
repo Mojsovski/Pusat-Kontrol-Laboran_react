@@ -12,7 +12,7 @@ export default function ListPage() {
             <br />
             <div className="row align-items-start">
               <div className="col">
-                <h2>Input Inventaris</h2>
+                <h2>Daftar Inventaris</h2>
               </div>
             </div>
             <div className="d-flex gap-3 justify-content-center"></div>

@@ -24,7 +24,7 @@ function Router() {
     <Routes>
       <Route path="/" element={<LoginPage />} />
       <Route path="/home" element={<DashboardPage />} />
-      <Route path="/createproduct" element={<InputPage />} />
+      <Route path="/input-inventaris" element={<InputPage />} />
       <Route path="/list-inventaris" element={<ListPage />} />
       <Route path="/edit-inventaris" element={<EditInvPage />} />
       <Route path="/detail-inventaris/:id" element={<InvDetail />} />
