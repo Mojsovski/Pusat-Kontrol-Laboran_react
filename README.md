@@ -1,6 +1,6 @@
-# React + Vite
+# Pusat Kontrol Laboran - React Mini Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistem Informasi Inventaris Pusat Kontrol Laboran di bangun berdasarkan dengan React & Vite
 
 Currently, two official plugins are available:
 
