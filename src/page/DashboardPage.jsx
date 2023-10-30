@@ -32,7 +32,7 @@ function LandingPage() {
                     </div>
                     <div className="col" style={{ marginBottom: "30px" }}>
                       <Link
-                        to="/input-inventaris"
+                        to="/list-inventaris"
                         className="btn btn-primary"
                         style={{
                           padding: 12,
@@ -47,7 +47,7 @@ function LandingPage() {
                     </div>
                     <div className="col" style={{ marginBottom: "30px" }}>
                       <Link
-                        to="/input-inventaris"
+                        to="/edit-inventaris"
                         className="btn btn-primary"
                         style={{
                           padding: 12,
@@ -62,7 +62,7 @@ function LandingPage() {
                     </div>
                     <div className="col" style={{ marginBottom: "30px" }}>
                       <Link
-                        to="/input-inventaris"
+                        to="/chatbot"
                         className="btn btn-primary"
                         style={{
                           padding: 12,

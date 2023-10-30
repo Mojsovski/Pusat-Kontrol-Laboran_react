@@ -44,7 +44,7 @@ function Header() {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/chatbot">
-                    Chatbot
+                    Asisten AI
                   </Link>
                 </li>
                 <li className="nav-item">
